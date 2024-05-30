@@ -1,0 +1,134 @@
+
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.image{
+    width: 40px;
+}
+.nav-item{
+    font-size: 15px;
+}
+.pose{
+    position: relative;
+}
+.numb{
+    position: absolute;
+    right: 21rem;
+    top: 10px;
+    background-color: #FFF;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+}
+.fas{
+    font-size: 23px;
+}
+.navbar{
+    background-color: #b9a16b;
+
+}
+/* section1 */
+.chic{
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #cbb883;
+    padding-top: 10%;
+}
+.imag{
+    height: 500px;
+    width: 90px;
+    
+}
+.card:hover {
+    transform: scale(1.08);
+    box-shadow: 0px 0 30px rgba(55, 55, 63, 0.15);
+  }
+.para{
+    letter-spacing: 3px;
+    color: #b6963d;
+}
+.section-bg{
+    /* background-color: #e2dee1; */
+    background-image: url(images/frfnd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+button[type=button]{
+    background-color: #b9a16b;
+}
+.p{
+    /* font-family: "Sevillana", cursive; */
+    color: #8a6707;
+}
+/* section3 */
+.sec3{
+    background-color: #b9a16b;
+}
+/* section5 */
+.icone{
+    background-color: #b9a16b;
+    padding: 19px;
+    font-size: 30px;
+    border-radius: 50%;
+    color: #FFF;
+}
+/* produit */
+.produit{
+    background-image: url(images/fond.jpg);
+    height: 70vh;
+    background-attachment: fixed;
+}
+
+.img{
+    height: 250px;
+}
+.icon{
+    padding: 8px;
+}
+.icon:hover{
+    color: #b9a16b;
+}
+.class:hover{
+    color: #b9a16b;
+}
+.contact , .connexion{
+    background-image: url(images/frfnd.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+#name , #email , #subject , #message{
+    background-color: transparent;
+    color: #fff;
+}
+.lien{
+    text-decoration: 0;
+    color: #b9a16b;
+    /* font-size: 6px; */
+}
+.pp{
+    color: #b9a16b;
+}
+input[type=submit] {
+    background-color: #b6963d;
+}
+.paragraphe{
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 10%;
+}
+@media screen and (max-width:378px) {
+    .imgfluid{
+        width: 320px;
+    }
+    .img{
+        height: 200px;
+    }
+    
+}
