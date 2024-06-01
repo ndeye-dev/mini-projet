@@ -30,7 +30,7 @@
             <a class="nav-link text-white" href="produit.html">PRODUITS</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link active text-white " href="contact.html">CONTACT</a>
+            <a class="nav-link text-white " href="contact.html">CONTACT</a>
           </li>
           <li class="nav-item ">
             <a class="nav-link text-white" href="connexion.html">CONNECTEZ-VOUS</a>
@@ -58,6 +58,16 @@
         <div class="col-lg-6 w-75 m-auto">
           <form action="forms/contact.php" method="post" role="form" class="php-email-form " >
             <div class="row">
+                <div class="col-md-6 form-group">
+                  <label for="exampleInputPassword1" class="form-label text-white">E-mail</label>
+                  <input type="mail" name="name" class="form-control " id="name" placeholder="" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <label for="exampleInputPassword1" class="form-label text-white">Mot de passe</label>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="" required>
+                </div>
+              </div>
+            <div class="row">
               <div class="col-md-6 form-group">
                 <label for="exampleInputPassword1" class="form-label text-white">Votre Nom</label>
                 <input type="text" name="name" class="form-control " id="name" placeholder="" required>
@@ -68,15 +78,11 @@
               </div>
             </div>
             <div class="form-group mt-4">
-              <label for="exampleInputPassword1" class="form-label text-white">Sujet</label>
+              <label for="exampleInputPassword1" class="form-label text-white">Adress</label>
               <input type="text" class="form-control" name="subject" id="subject" placeholder="" required>
             </div>
-            <div class="form-group mt-4">
-              <label for="exampleInputPassword1" class="form-label text-white">Message</label>
-              <textarea class="form-control" name="message" rows="7" id="message" placeholder="" required></textarea>
-            </div>
             
-            <div class="text-center pb-5 pt-3 "><a href="inscription.html" ><button type="button" class="main-btn border-0 text-white p-2  ">Envoyer</button> </a></div>
+            <div class="text-center pb-5 pt-3 "><a href="index.html" ><button type="button" class="main-btn border-0 text-white p-2  ">Valider</button> </a></div>
           </form>
         </div>
       </div>
